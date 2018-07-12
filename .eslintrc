@@ -3,11 +3,16 @@
   "extends": [
     "curacloud"
   ],
+  "rules": {
+    "no-param-reassign": "off",
+    "no-console": "off"
+  },
   "env": {
     "es6": true,
     "node": true,
     "mocha": true,
     "browser": true,
-    "jquery": true
+    "jquery": true,
+    "jasmine": true
   }
 }
