@@ -1,11 +1,14 @@
 {
   "parser": "babel-eslint",
   "extends": [
-    "curacloud"
+    "airbnb"
   ],
   "rules": {
     "no-param-reassign": "off",
-    "no-console": "off"
+    "no-console": "off",
+    "import/extensions": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/prefer-stateless-function": [1, { "ignorePureComponents": [".js", ".jsx"] }]
   },
   "env": {
     "es6": true,

@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-
+import images from '../configs/images';
 class Cat extends Component {
   render() {
     return (
       <div>
-        {/* <img src={cat} role="presentation" /> */}
+        <img src={images.cat} role="presentation" />
       </div>
     );
   }
